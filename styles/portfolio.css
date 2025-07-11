@@ -5,6 +5,11 @@
   font-variation-settings:
     "wdth" 100;
 }
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
 /* shared style */
 .text-primary{
     color: #FD6E0A;;
@@ -24,13 +29,7 @@
     padding: 18px 35px;
     border-radius: 5px;
 }
-.
 
-.header{
-    background-image: url(/images/developer.png),url(/images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: top left,bottom right;
-}
 /* Nav style */
 nav{
     display: flex;
@@ -89,4 +88,8 @@ section-title{
 }
 .banner-profile-picture{
     width: 580px;
+}
+/* main section */
+main{
+    max-width: 1140px;
 }
